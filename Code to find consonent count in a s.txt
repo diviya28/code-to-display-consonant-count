@@ -1,0 +1,9 @@
+Code to find consonent count in a string:
+
+char=input("Enter a character :")
+vowel="aeiou"
+count=0
+for i in char:
+    if i not in vowel:
+        count+=1
+print (count)
